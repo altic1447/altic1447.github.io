@@ -1,0 +1,24 @@
+/* * {
+    color: #777; 
+
+} */
+
+.nav li {
+    display: inline;}
+
+.nav a { display: inline-block;
+    text-decoration: none;
+padding: 1.1em;
+color: aqua;
+text-align: center;
+font-size: 1.3em;
+font-weight: bold;}
+ .nav a:hover { background-color: rgba(240, 255, 240, 0.342);}
+
+.header{
+    background-image: url("images/header-alternative.jpg");
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.header-welcome { text-align:center;}
