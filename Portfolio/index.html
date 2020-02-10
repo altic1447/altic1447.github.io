@@ -8,7 +8,8 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
+        <a name=top></a>
         <nav class="nav">
             <ul>
                 <li><a href="#INTRODUCTION">INTRODUCTION</a></li>
@@ -19,52 +20,77 @@
             </ul>
         </nav>
         <hr>
-        <div class="header-welcome"><h1>Alexander Tichonow</h1>
-            <p>Herzlich Willkommen!</p></div>
-        
+        <div class="header-welcome">
+            <h1>Alexander Tichonow</h1>
+            <p>Herzlich Willkommen!</p>
+        </div>
+
     </header>
-    <section>
-        <h2 id="INTRODUCTION">ABOUT ME</h2>
 
-        <p class="p1">Hey there!</p>
-        <p>Mein Name ist Alexander Tichonow und ich bin momentan Teil der MAT16-Klasse beim <a
-                href="https://digitalcareerinstitute.org/">Digital Career Institute</a> in Düsseldorf!</p>
-    </section>
-    <section>
-        <h2 id="EXPERIENCE">EXPERIENCE</h2>
+    <main class="main-section">
+        <section>
+            <h2 id="INTRODUCTION">ABOUT ME</h2>
+            <img class="my-image" src="images/me.jpg" alt="image of me">
 
-        <p class="p1">Greenhorn and proud!</p>
-        <p>Ich habe keinerlei Erfahrungen im Bereich Web-Entwicklung. Jedoch konnte ich beim <a
-                href="https://digitalcareerinstitute.org/courses/orientation-course">Erprobunscenter für digitale
-                Berufe</a> erste Einblicke in diesen Bereich erhalten. Eine Frucht dieser Arbeit ist eine sog.
-            "Dankesseite", mit welcher ich mich bei meinem Arbeitsberater für die Möglichkeit der Teilnahme bedanken wollte.
-        </p>
-        <form action="https://altic1447.github.io/danke" target=_blank>
+            <h3>Hey there!</h3>
+            <p>Mein Name ist Alexander Tichonow und ich bin momentan Teil der MAT16-Klasse beim <a
+                    href="https://digitalcareerinstitute.org/">Digital Career Institute</a> in Düsseldorf!</p>
+        </section>
+        <section>
+            <h2 id="EXPERIENCE">EXPERIENCE</h2>
+            <img class="exp-image" src="images/experience.jpg" alt="display of laptopt">
 
-            <button type=submit>Schau dir meine DANKESSEITE an!</button>
+            <h3>Greenhorn and proud!</h3>
+            <p>Ich habe keinerlei Erfahrungen im Bereich Web-Entwicklung. Jedoch konnte ich beim <a
+                    href="https://digitalcareerinstitute.org/courses/orientation-course">Erprobunscenter für digitale
+                    Berufe</a> erste Einblicke in diesen Bereich erhalten. Eine Frucht dieser Arbeit ist eine sog.
+                "Dankesseite", mit welcher ich mich bei meinem Arbeitsberater für die Möglichkeit der Teilnahme bedanken
+                wollte.
+            </p>
+            <form action="https://altic1447.github.io/danke" target=_blank>
 
-        </form>
+                <button id="dankebtn" type=submit name="submit" value="Submit Application">Schau dir meine DANKESSEITE an!</button>
 
-    </section>
-    <section>
-        <h2 id="FUNFACTS">FUN FACTS</h2>
-        <p class="p1">I used to be an adventurer like you...</p>
-        <ol>
-            <li>Nein, ich habe noch nie einen Bogenpfeil mit meinem Knie erfasst.</li>
-            <li>Ja, ich lasse gerne mal den Kontext weg, bei dem was ich sage.</li>
-            <li>Ich benutze gerne Metaphern.</li>
-            <li>Ich habe mal getanzt.</li>
-        </ol>
-    </section>
-    <section>
-        <h3>Wenn du es bis hierher geschafft hast...</h3>
-        <iframe width="500" height="315" src="https://www.youtube.com/embed/oSMxx-LnV1Y">
-        </iframe>
-    </section>
-    <footer id="footer">
-        <p>Contact Information: TBA </p>
-        <p>Created by: <a href="https://de.wikipedia.org/wiki/Alexander_Iwanowitsch_Tichonow" target="_blank"
-                value="Alexander Tichonow">Alexander Tichonow</a></p>
+            </form>
+
+        </section>
+        <section>
+            <h2 id="FUNFACTS">FUN FACTS</h2>
+            <h3>I used to be an adventurer like you...</h3>
+            <ol>
+                <li>Nein, ich habe noch nie einen Bogenpfeil mit meinem Knie erfasst.</li>
+                <li>Ja, ich lasse gerne mal den Kontext weg, bei dem was ich sage.</li>
+                <li>Ich benutze gerne Metaphern.</li>
+                <li>Ich habe mal getanzt.</li>
+            </ol>
+        </section> <hr>
+        <section>
+            <h4>Wenn du es bis hierher geschafft hast...</h4>
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/oSMxx-LnV1Y">
+            </iframe>
+        </section>
+    </main>
+
+    <footer class=footer-end id="footer">
+
+        <div>
+            <p>Contact Information: TBA </p>
+            <p>Created by: &copy; <a href="https://de.wikipedia.org/wiki/Alexander_Iwanowitsch_Tichonow" target="_blank"
+                    value="Alexander Tichonow">Alexander Tichonow</a> 2020 </p>
+        </div>
+
+
+        <div> 
+            <button id="backbtn"><a href="#top">GO TO TOP</a></button> 
+        </div>
+
+
+        <!-- <p>Contact Information: TBA </p>
+        <p>Created by: &copy; <a href="https://de.wikipedia.org/wiki/Alexander_Iwanowitsch_Tichonow" target="_blank"
+                value="Alexander Tichonow">Alexander Tichonow</a> 2020 </p>
+
+                <button id="backbtn"><a href="#top">GO TO TOP</a></button> -->
+
     </footer>
 
 </body>
